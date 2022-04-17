@@ -1,14 +1,3 @@
-var aniCon;
-
-$(window).on('load', function () {
-
-    $('.contents').eq(0).show();
-
-    turnCon = new turnClickContents(3, $(".clickPage1"));
-    turnCon.init();
-
-});
-
 turnClickContents = function (items, wrap) {
     var self = this;
     this.wrap = wrap;

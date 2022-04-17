@@ -1,15 +1,3 @@
-
-var aniCon;
-
-$(window).on('load', function () {
-
-	$('.contents').eq(0).show();
-
-	aniCon = new aniContents($('.clickPage1'))
-	aniCon.init();
-
-});
-
 aniContents = function(wrap) {
 
     var self = this;
@@ -49,4 +37,3 @@ aniContents = function(wrap) {
 	}
 
 }
-
